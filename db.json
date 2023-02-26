@@ -1,18 +1,20 @@
-[
-  {
-    "email": "alo@gmail.com",
-    "password": "123456",
-    "firstName": "Lam",
-    "lastName": "Nguyen",
-    "industry": "Education",
-    "jobTitle": "Developer",
-    "company": "FPT",
-    "city": "Ho chi minh",
-    "telephone": "0123456789",
-    "favorites": [
-      "Music",
-      "Sport"
-    ],
-    "platform": "Java"
-  }
-]
+{
+  users: [
+    {
+      "email": "alo@gmail.com",
+      "password": "123456",
+      "firstName": "Lam",
+      "lastName": "Nguyen",
+      "industry": "Education",
+      "jobTitle": "Developer",
+      "company": "FPT",
+      "city": "Ho chi minh",
+      "telephone": "0123456789",
+      "favorites": [
+        "Music",
+        "Sport"
+      ],
+      "platform": "Java"
+    }
+  ]
+}
