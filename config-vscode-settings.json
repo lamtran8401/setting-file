@@ -18,6 +18,8 @@
     "window.commandCenter": true,
     "editor.minimap.enabled": false,
     "terminal.integrated.fontFamily": "Consolas ligaturized v3, Monaco, monospace",
+    "terminal.integrated.fontWeight": "600",
+    "editor.cursorBlinking": "smooth",
     "reactSnippets.settings.prettierEnabled": true,
     "prettier.arrowParens": "avoid",
     "prettier.bracketSameLine": true,
@@ -36,8 +38,27 @@
     "workbench.colorCustomizations": {
         "[Elkon Dark Soft]": {
             "terminal.background": "#212121",
+            "terminal.foreground": "#b4b2ab",
+            "editor.background": "#202020",
+            "sideBar.background": "#1b1b1b",
             "panel.background": "#1e1e1e",
-            "activityBar.background": "#1e1e1e"
+            "activityBar.background": "#1e1e1e",
+            "statusBar.background": "#1b1b1b"
         }
     },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.compactFolders": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "color-highlight.markerType": "underline",
+    "editor.cursorSmoothCaretAnimation": "on",
 }
