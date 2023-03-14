@@ -1,64 +1,75 @@
 {
-    "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Elkon Dark Soft",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "macos-modern",
-    "editor.fontFamily": "Consolas ligaturized v3, monospace",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontSize": 14,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "terminal.integrated.defaultProfile.osx": "zsh",
-    "editor.stickyScroll.enabled": true,
-    "scm.inputFontSize": 14,
-    "debug.console.fontSize": 14,
-    "terminal.integrated.tabs.enabled": false,
-    "window.commandCenter": true,
-    "editor.minimap.enabled": false,
-    "terminal.integrated.fontFamily": "Consolas ligaturized v3, Monaco, monospace",
-    "terminal.integrated.fontWeight": "600",
-    "editor.cursorBlinking": "smooth",
-    "reactSnippets.settings.prettierEnabled": true,
-    "prettier.arrowParens": "avoid",
-    "prettier.bracketSameLine": true,
-    "prettier.printWidth": 90,
-    "prettier.singleQuote": true,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": "comment",
-                "settings": {
-                    "foreground": "#5c5c5c"
-                }
-            }
-        ]
-    },
-    "workbench.colorCustomizations": {
-        "[Elkon Dark Soft]": {
-            "terminal.background": "#212121",
-            "terminal.foreground": "#b4b2ab",
-            "editor.background": "#202020",
-            "sideBar.background": "#1b1b1b",
-            "panel.background": "#1e1e1e",
-            "activityBar.background": "#1e1e1e",
-            "statusBar.background": "#1b1b1b"
+  "editor.inlineSuggest.enabled": true,
+  "workbench.colorTheme": "Elkon Dark Soft",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "macos-modern",
+  "editor.fontFamily": "Consolas ligaturized v3, monospace",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 14,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "editor.stickyScroll.enabled": true,
+  "scm.inputFontSize": 14,
+  "debug.console.fontSize": 14,
+  "terminal.integrated.tabs.enabled": false,
+  "window.commandCenter": true,
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontFamily": "Consolas ligaturized v3, Monaco, monospace",
+  "terminal.integrated.fontWeight": "600",
+  "editor.cursorBlinking": "smooth",
+  "reactSnippets.settings.prettierEnabled": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 90,
+  "prettier.singleQuote": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#5c5c5c"
         }
-    },
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
-    },
-    "[javascriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.compactFolders": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "color-highlight.markerType": "underline",
-    "editor.cursorSmoothCaretAnimation": "on",
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "[Elkon Dark Soft]": {
+      "terminal.background": "#212121",
+      "terminal.foreground": "#b4b2ab",
+      "editor.background": "#202020",
+      "sideBar.background": "#212121",
+      // "editor.background": "#202020",
+      // "sideBar.background": "#202020",
+      // "sideBar.border": "#202020",
+      "panel.background": "#1e1e1e",
+      "panelTitle.inactiveForeground": "#7a7878",
+      "panelTitle.activeBorder": "#bfbbbb",
+      "activityBar.background": "#1e1e1e",
+      "statusBar.background": "#1b1b1b",
+      "tab.activeBackground": "#302f2f",
+      "tab.inactiveBackground": "#202020",
+      "tab.activeBorder": "#20202000",
+      "tab.activeBorderTop": "#20202000",
+      "activityBar.activeBorder": "#bfbbbb",
+    }
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.compactFolders": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "color-highlight.markerType": "underline",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
 }
